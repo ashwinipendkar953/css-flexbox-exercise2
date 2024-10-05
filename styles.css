@@ -188,7 +188,7 @@ textarea {
 
 /* review order layout */
 .review-order {
-  border: 5px solid green;
+  border: 5px solid #13c159;
   padding: 1rem 0.5rem;
   max-width: 380px;
   margin-bottom: 3rem;
@@ -233,7 +233,7 @@ textarea {
 }
 
 .review-order .place-order-btn {
-  background-color: green;
+  background-color: #13c159;
   border: none;
   padding: 0.5rem;
   color: white;
