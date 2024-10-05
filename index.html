@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Flexbox Exercise-2</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Contact form -->
+    <form action="" class="contact-form mb-5">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name:</label>
+        <input type="text" id="name" class="form-input" />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" id="email" class="form-input" />
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message:</label>
+        <textarea id="message" rows="5" class="form-input"></textarea>
+      </div>
+      <button class="btn-black">Submit</button>
+    </form>
+
+    <!-- Login form -->
+    <form action="" class="login-form mb-5">
+      <h2>Login</h2>
+      <div class="mb-3">
+        <label for="email" class="form-label fw-bold">Email</label>
+        <input type="email" id="email" class="form-input" />
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label fw-bold">Password</label>
+        <input type="text" id="password" class="form-input" />
+      </div>
+      <button class="btn-info mb-3">Login</button>
+      <a href="/" class="link">Forgot Password?</a>
+    </form>
+
+    <!-- Photo gallery layout -->
+    <div class="gallery-div">
+      <h1>Photo Gallery</h1>
+      <nav>
+        <ul class="list">
+          <li class="list-items">
+            <a href="/" class="link active">All</a>
+          </li>
+          <li class="list-items">
+            <a href="/" class="link">Nature</a>
+          </li>
+          <li class="list-items">
+            <a href="/" class="link">Birds</a>
+          </li>
+          <li class="list-items">
+            <a href="/" class="link">Animals</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="row">
+        <div class="col">
+          <img src="https://placehold.co/100?text=Nature" alt="Nature image" />
+        </div>
+        <div class="col">
+          <img src="https://placehold.co/100?text=Birds" alt="Birds image" />
+        </div>
+        <div class="col">
+          <img
+            src="https://placehold.co/100?text=Animals"
+            alt="Animals image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- pricing table layout -->
+    <div class="pricing-row">
+      <div class="col">
+        <a href="/" class="link">1 month Free</a>
+        <h3 class="heading">Basic Plan</h3>
+        <p class="price">$9.99/mo</p>
+        <hr />
+        <p>Ad-free music listening</p>
+        <p>Download 10k songs/device</p>
+        <p>Login from 3 devices</p>
+        <button class="btn-signup">Sign Up</button>
+      </div>
+
+      <div class="col">
+        <a href="/" class="link">1 month Free</a>
+        <h3 class="heading">Pro Plan</h3>
+        <p class="price">$19.99/mo</p>
+        <hr />
+        <p>Ad-free music listening</p>
+        <p>Download 20k songs/device</p>
+        <p>Login from 5 devices</p>
+        <button class="btn-signup">Sign Up</button>
+      </div>
+
+      <div class="col">
+        <a href="/" class="link">1 month Free</a>
+        <h3 class="heading">Enterprise Plan</h3>
+        <p class="price">$59.99/mo</p>
+        <hr />
+        <p>Ad-free music listening</p>
+        <p>Download 40k songs/device</p>
+        <p>Login from unlimited devices</p>
+        <button class="btn-signup">Sign Up</button>
+      </div>
+    </div>
+
+    <!-- Review Order layout -->
+    <div class="review-order">
+      <h1>Review Order</h1>
+      <div class="product-details">
+        <div class="item-desc">
+          <h3>ITEM</h3>
+          <img src="https://placehold.co/50" alt="Product Image" />
+          <p>Limited addition cactus print bag 1 litre, green color</p>
+        </div>
+        <div class="item-info">
+          <div class="">
+            <h3>QTY</h3>
+            <p>1</p>
+          </div>
+          <div class="">
+            <h3>TOTAL</h3>
+            <p>INR 999</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-summary">
+        <div>
+          <p>Subtotal</p>
+          <p class="fw-bold">INR 999</p>
+        </div>
+        <div>
+          <p>GST</p>
+          <p class="fw-bold">INR 179</p>
+        </div>
+        <div class="fw-bold fs-3">
+          <p>Grand Total</p>
+          <p>INR 1178</p>
+        </div>
+      </div>
+
+      <button class="place-order-btn">PLACE ORDER</button>
+      <p class="secure-payment-msg">Cart Secured by Razorpay</p>
+    </div>
+  </body>
+</html>
